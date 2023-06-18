@@ -1,0 +1,63 @@
+ div
+{
+ position:absolute;
+ width:4%;
+ height:8%;
+ border-radius:10%;
+ cursor:pointer;
+ background-color:MidnightBlue;
+ background-size:contain;
+ background-repeat:no-repeat;
+}
+/*div*/
+ #ila{left:0%; top:4% ;}
+ #ilb{left:0%; top:12%;}
+ #ilc{left:0%; top:20%;}
+ #ild{left:0%; top:28%;}
+ #ile{left:0%; top:36%;}
+ #ilf{left:0%; top:44%;}
+ #ilg{left:0%; top:52%;}
+ #ilh{left:0%; top:60%;}
+ #ili{left:0%; top:68%;}
+ #ilj{left:0%; top:76%;}
+ #ilk{left:0%; top:84%;}
+ #ill{left:0%; top:92%;}
+/*div*/
+ #ial{left:4%; top:4% ;}
+ #ibl{left:4%; top:12%;}
+ #icl{left:4%; top:20%;}
+ #idl{left:4%; top:28%;}
+ #iel{left:4%; top:36%;}
+ #ifl{left:4%; top:44%;}
+ #igl{left:4%; top:52%;}
+ #ihl{left:4%; top:60%;}
+ #iil{left:4%; top:68%;}
+ #ijl{left:4%; top:76%;}
+ #ikl{left:4%; top:84%;}
+ #iml{left:4%; top:92%;}
+/*div*/
+ #ira{right:0%;top:4% ;}
+ #irb{right:0%;top:12%;}
+ #irc{right:0%;top:20%;}
+ #ird{right:0%;top:28%;}
+ #ire{right:0%;top:36%;}
+ #irf{right:0%;top:44%;}
+ #irg{right:0%;top:52%;}
+ #irh{right:0%;top:60%;}
+ #iri{right:0%;top:68%;}
+ #irj{right:0%;top:76%;}
+ #irk{right:0%;top:84%;}
+ #irl{right:0%;top:92%;}
+/*div*/
+ #iar{right:4%;top:4% ;}
+ #ibr{right:4%;top:12%;}
+ #icr{right:4%;top:20%;}
+ #idr{right:4%;top:28%;}
+ #ier{right:4%;top:36%;}
+ #ifr{right:4%;top:44%;}
+ #igr{right:4%;top:52%;}
+ #ihr{right:4%;top:60%;}
+ #iir{right:4%;top:68%;}
+ #ijr{right:4%;top:76%;}
+ #ikr{right:4%;top:84%;}
+ #ilr{right:4%;top:92%;}

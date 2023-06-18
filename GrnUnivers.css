@@ -1,0 +1,56 @@
+
+ body{margin:0;padding:0;}
+ .title{position:absolute;color:Azure;font-size:300%;top:5%;left:40%;text-shadow: 3px 5px 13px DarkRed;-webkit-text-stroke:1px black;}
+/*button */
+ button{position:absolute;height:4%;text-align:center;font-size:15px;
+ cursor:pointer;color:Cornsilk;opacity:0.5;background-color:MidnightBlue;
+}
+ button:hover {
+ background-image: linear-gradient(90deg, MidnightBlue, #03a9f4, #f441a5, white,#f441a5, #03a9f4, MidnightBlue);
+ background-size: 400%;
+ animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+  background-image: linear-gradient(90deg, MidnightBlue, #03a9f4, #f441a5, white,#f441a5, #03a9f4, MidnightBlue);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+button:hover:before {
+  filter: blur(20px);
+  opacity: 1;
+}
+/* button */
+ #GrnGrannik{width:8%;top:0% ;left: 0%;}
+ #GrnMedia  {width:7%;top:0% ;left: 8%;}
+ #GrnText   {width:7%;top:0% ;left:15%;}
+ #GrnFile   {width:7%;top:0% ;left:22%;}
+ #GrnGit    {width:7%;top:0% ;left:29%;}
+ #GrnMail   {width:7%;top:0% ;left:36%;}
+ #GrnAudio  {width:7%;top:0% ;left:43%;}
+ #GrnPictr  {width:7%;top:0% ;left:50%;}
+ #GrnPctVid {width:7%;top:0% ;left:57%;}
+ #GrnVideo  {width:7%;top:0% ;left:64%;}
+ #GrnCloud  {width:7%;top:0% ;left:71%;}
+ #GrnClock  {width:7%;top:0% ;left:78%;}
+ #GrnCSS    {width:7%;top:0% ;left:85%;}
+ #GrnJS     {width:8%;top:0% ;left:92%;}
